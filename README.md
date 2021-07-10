@@ -5,6 +5,9 @@
 - usa [Ant Design](https://ant.design/) para react js como libreria de ui 
 - usa [React router dom](https://reactrouter.com/) como enrutador
 
+Env:
+- REACT_APP_API_URL: https://wipley-bank-api.herokuapp.com/api
+
 Snaps:
 1. Login Screen:
 
