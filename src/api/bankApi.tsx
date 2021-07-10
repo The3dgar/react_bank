@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const baseURL = "http://192.168.100.4:4000/api";
+const baseURL = process.env.REACT_APP_API_URL;
+
 const bankApi = axios.create({ baseURL });
 
 bankApi.interceptors.request.use(async (config) => {

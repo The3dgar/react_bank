@@ -36,7 +36,8 @@ export const TransferScreen = () => {
     loadDestinataries,
     destinataries,
     addMovement,
-    loadDestinataryById
+    loadDestinataryById,
+    loading
   } = useContext(BankContext);
 
   useEffect(() => {
@@ -57,6 +58,8 @@ export const TransferScreen = () => {
       history.push("/historial");
     }, 500);
   };
+
+  if (loading) return <Spin/>;
 
   return (
     <>

@@ -70,11 +70,9 @@ export const BankProvider = ({ children }: any) => {
   };
 
   const loadDestinataryById = async (destinataryId: string) => {
-    setLoading(true);
     const { data } = await bankApi.get<DestinataryResponse>(
       `/destinatary?id=${destinataryId}`
     );
-    setLoading(false);
     return data;
   };
 
