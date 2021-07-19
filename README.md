@@ -4,6 +4,7 @@
 - incluye customs hooks para errores y para consumir una api interna
 - usa [Ant Design](https://ant.design/) para react js como libreria de ui 
 - usa [React router dom](https://reactrouter.com/) como enrutador
+- requiere instanciar una api --> [repo](https://github.com/The3dgar/node_bank) o puedes usar la instancia ⬇
 
 Env:
 - REACT_APP_API_URL: https://wipley-bank-api.herokuapp.com/api
