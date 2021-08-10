@@ -1,6 +1,7 @@
 # Bank Wipley!
 
 - Proyecto de prueba con reactjs y el template de typescript, una app con 2 configuraciones de navegación (Auth y Main)
+- Puedes ver un ejemplo del proyecto [aqui](https://main.d3ggos1flzb79f.amplifyapp.com/)
 - incluye customs hooks para errores y para consumir una api interna
 - usa [Ant Design](https://ant.design/) para react js como libreria de ui 
 - usa [React router dom](https://reactrouter.com/) como enrutador
